@@ -1,63 +1,68 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="index_css.css">
-        <title>fix documentation</title>
+        <title>soldering documentation</title>
         <meta charset="UTF-8">
-        <meta name="Author" content="Arunguru">
-        <meta name="description" content="this is my work documentation">
-        <meta name="viewport" content="width=device-width, shrink-to-fit=no">
-        <link rel="icon" href="icon.png">
+        <meta name="Author" content="ARuNGuRu">
+        <meta name="Keywords" content="arunguru,solder,arunguru00,pcb,idea">
+        <meta name="description" content="pcb fixing documentation">
+        <link rel="stylesheet" href="index_css.css">
+        <script src="scripts.js"></script>
+        
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sixtyfour+Convergence&family=Space+Grotesk:wght@300..700&display=swap');
+        </style>
+
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Rock+Salt&display=swap');
+        </style>
     </head>
     <body>
-        
-        <div class="nav">
-        <h1>ARuNGuRu</h1>
-        </div>
-        <div class="main">
-            <h1 class="heading">Problem fixing Documentation</h1>
-            <div class="con1">
-                <h2>1.What is the problem?</h2>
-                <p>
-                    <span class="cap"></span>We had a Bluetooth speaker due to some miss handling its <abbr title="Right Green Blue">RGB</abbr> light 
-                    button was broken. We recured the button While accessing the speakers <abbr title="Printed Circuit Board">PCB</abbr>, 
-                    which brocked connecting points and mounting points. A layer of the PCB at the mounting endpoints were completly 
-                    cameout with the button, these end surfaces are more important because when we apply focus to the button 
-                    these mounting surfaces will transfers the pressure to the PCB so that the button can be stable for next press.
-                </p>
+        <div class="header">
+            <h1 class="brand">ARuNGuRu</h1>
+            <div class="like" onclick="increment()">
+                <button class="blike" >&#9733;</button>
+                <p class="count" id="count">Like</p>
             </div>
-            <div class="i1">
+        </div>
+        <div class="body">
+            <div class="body2">
+            <h2 style="font-size: 40px;">Problem fixing Documentation</h2>
+            <h2>1.What is the problem?</h2>
+            <p>
+                <span class="cap"></span>We had a Bluetooth speaker due to some miss handling its <abbr title="Right Green Blue">RGB</abbr> light 
+                button was broken. We recured the button While accessing the speakers <abbr title="Printed Circuit Board">PCB</abbr>, 
+                which brocked connecting points and mounting points. A layer of the PCB at the mounting endpoints were completly 
+                cameout with the button, these end surfaces are more important because when we apply focus to the button 
+                these mounting surfaces will transfers the pressure to the PCB so that the button can be stable for next press.
+            </p>
+            <div class="image_1">
                 <img src="1.beforeSoldering.png">
             </div>
-            <div class="con1">
-                <h2>2.What we did?</h2>
-                <p>
-                    <span class="cap"></span>After analysing the PCB, we are sure that the connecting ends of the button can be soldered as it is, but the mounting end 
-                    are more challenging because I desided to solder the mounting end with the near by buttons mounting ends but they had a bit of gap,
-                    so it may are mayn't be soldered properly.
-                </p>
-                <p>
-                    <span class="cap"></span>We prepared to solder after a while, first we soldered the connecting ends properly with out any miss lead, Then we tried to 
-                    solder a the moulding ends with near by ends as a predicted where a bit of gap and the soldering tip also made the process hard.
-                    So I melted a bit more soldering wire and applyed between the button like in a building construction :) which made the mounting ends
-                    to make a connect for support, it worked!!!. 
-                </p>
-                
-            </div>
-            <div class="i1">
+            <h2>2.What we did?</h2>
+            <p>
+                <span class="cap"></span>After analysing the PCB, we are sure that the connecting ends of the button can be soldered as it is, but the mounting end 
+                are more challenging because I desided to solder the mounting end with the near by buttons mounting ends but they had a bit of gap,
+                so it may are mayn't be soldered properly.
+            </p>
+            <p>
+                <span class="cap"></span>We prepared to solder after a while, first we soldered the connecting ends properly with out any miss lead, Then we tried to 
+                solder a the moulding ends with near by ends as a predicted where a bit of gap and the soldering tip also made the process hard.
+                So I melted a bit more soldering wire and applyed between the button like in a building construction :) which made the mounting ends
+                to make a connect for support, it worked!!!. 
+            </p>
+            <div class="image_1">
                 <video width="200" muted loop autoplay title="Fixed PCB after soldering">
                     <source src="4.complition.mp4">
                     After soldering view
                 </video>
             </div>
-            <div class="con1">
-                <h2>3.complite process video</h2>
-            </div>  
-            <div class="i2">
+            <h2>3.complite process video</h2>
+            <div class="video">
                 <video class="v2" preload="auto" controls title="process flim"> 
                     <source src="solderingProcess.mp4" type="video/mp4">
                     soldering process video
                 </video>
+            </div>
             </div>
         </div>
     </body>

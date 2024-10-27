@@ -2,65 +2,90 @@
 body{
     margin:0px;
     font-family: Arial;
-    
-}
-.main{
-    padding-left: 300px;
-    padding-right: 300px;
-}
-h1{
-    margin:0px;
-}
-.nav{
-    
-    display:block;
-    margin:0px;
-    background-color: rgb(141, 87, 241);
-    padding:20px;
+    background-color: black;
     color:white;
-    font-family: Arial;
-    font-style:italic;
 }
 
-.heading{
-    padding-top:20px;
-    padding-left:20px;
-    font-size:35px;
+.header{
+    background-color: rgb(107, 106, 106);
+    vertical-align: middle;
+    display:grid;
+    grid-template-columns: .2fr 1fr;
+    padding-top: 10px;padding-bottom: 10px;
+    font-family: "Rock Salt", cursive;
+
 }
 
-.con1{
-    vertical-align: top;
-    padding-top:30px;
-    padding-left:40px;
-    width:800px;
-    font-family: Arial;
-    line-height:20px;
+.brand{
+    margin:0px;
     display:inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 20px;
+    color:white;
+}
+
+.like{
+    justify-content:right;
+    display: inline-flex;
+}
+
+
+.like:hover{
+    opacity: 80%;
+}
+
+.count{
+    margin:0px;
+    display:inline-block;
+    padding-top: 8px;
+    padding-right: 20px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.blike{
+    vertical-align: middle;
+    border:none;
+    padding:0;
+    background-color: rgb(107, 106, 106);
+    color:white;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    height:100%;
+    width:100%;
+}
+
+.body2{
+    padding-top: 30px;
+    width:70%;
+    font-family: "Caveat", cursive;
+    font-size: 20px;
 }
 
 .cap{
-    padding-left:50px;
+    padding-left: 50px;
 }
 
-.i1{
-    display:block;
-    text-align:center;
+.image_1,.video{
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
 }
 
 img{
-    width:200px;
-}
-
-video{
-    width:200px;
-    display: inline-block;
-}
-
-.i2{
-    text-align:center;
+    width:20%;
 }
 
 .v2{
-    display:inline-block;
-    width:600px;
+    width: 40%;
+}
+
+p{
+    font-size: 25px;
 }
